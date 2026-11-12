@@ -43,7 +43,7 @@ print("=" * 30)
 name = input("Sisesta oma nimi: ")
 play = "jah"
 
-while play == "jah": # kogu mäng kordub kuni mängija ütleb ei
+while play == "jah": 
     night = 1
     player_hp = 50
 
@@ -107,7 +107,7 @@ while play == "jah": # kogu mäng kordub kuni mängija ütleb ei
             print("Öö", night, "läbi!")
             night = night + 1 # järgmine öö
         else:
-            print(monster, "võitis. Jäid ööle", night, "- Game over")
+            print(monster, "võitis. Said tongi", night, "- Game over")
 
     if player_hp > 0:
         print("\n🎉 Pidasid Riigikogus vastu 5 ööd!", name, "on võitnud!")
